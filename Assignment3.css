@@ -1,0 +1,56 @@
+
+
+.heading { font-family: monospace;
+  font-weight: 600;
+  font-stretch: extra-expanded;
+  background-color: yellow;
+  text-align: center;
+  border: 5px dotted black;
+  padding: 10px;
+
+
+}
+
+body { background-color:darkgray;
+
+}
+
+.block img {
+align-content: center;
+width: 30%;
+height: 225px;
+margin-bottom: 20px;
+margin-right: 1%;
+border:2px solid black;
+float:left;
+}
+
+.text {
+border: 2px dotted black;
+width: 30%;
+height: 225px;
+text-align: center;
+margin-bottom: 20px;
+margin-right: 1%;
+float:left;
+
+}
+.block2 img {
+align-content: center;
+width: 30%;
+height: 225px;
+margin-bottom: 20px;
+margin-right: 1%;
+border:2px solid black;
+float:left;
+}
+
+.navbar {
+  text-align: center;
+  padding: 14px;
+  background-color: yellow;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
