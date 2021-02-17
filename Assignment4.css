@@ -1,0 +1,56 @@
+body {
+  background-color: lightpink;
+}
+
+.minhand img{
+  position: absolute;
+  width: 40%;
+  height: 100px;
+  top: 44%;
+  left: 50%;
+  animation: time 10s linear;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  animation: spinAround2 10s linear;
+
+
+
+
+}
+.hourhand img{
+  position: absolute;
+  width: 40%;
+  height: 100px;
+  top: 44%;
+  left: 50%;
+  animation: time 10s linear;
+  transition: transform 5s;
+  transform-origin: center left;
+  transform: rotate(30deg);
+  animation: spinAround 10s linear;
+
+}
+
+.background {
+  background-image: url('clockimage.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+}
+
+
+@keyframes spinAround {from {
+    transform: rotate(0deg) translateX(1px);
+  }
+  to {
+    transform: rotate(30deg) translateX(1px);
+  }
+}
+@keyframes spinAround2 {from {
+    transform: rotate(-90deg) translateX(1px);
+  }
+  to {
+    transform: rotate(270deg) translateX(1px);
+  }
+}
